@@ -1,7 +1,13 @@
 package one.digitalinnovation.digionebank
 
-abstract class Pessoa(
-    val nome: String,
-    val cpf: String
-)
+class Pessoa {
+    var nome: String = "Ycaro"
+    var cpf: String = "123.123.123-45"
+}
 
+fun main() {
+    val ycaro = Pessoa()
+
+    println(ycaro.nome)
+    println(ycaro.cpf)
+}
